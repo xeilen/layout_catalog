@@ -29,6 +29,9 @@
     line-height: 14px;
     text-decoration: none;
     color: black;
+    white-space: nowrap;
+
+    transition: color $transitionLinkTime linear;
 
     &--active {
       color: $linkColor;
